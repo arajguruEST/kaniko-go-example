@@ -8,7 +8,7 @@ spec:
     image: gcr.io/kaniko-project/executor:latest
     args:
     - "--dockerfile=Dockerfile"
-    - "--context=https://github.com/akashicloud/kaniko-python-example.git"
+    - "--context=https://github.com/arajguruEST/kaniko-go-example.git"
     - "--destination=arajguru/kaniko-go-image:latest"
     volumeMounts:
     - name: kaniko-secret
